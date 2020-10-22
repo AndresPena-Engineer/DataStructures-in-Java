@@ -1,11 +1,28 @@
 package redandblacktrees;
+/* 
+***********RedBlackTrees**************
 
-/*
- * Java Program to Implement Red Black Tree
- * Andres Pena
- * Lab 5
- * CS 302
- * 11/18/2017
+A red-black tree is a kind of self-balancing binary search tree where each node has an extra bit, 
+and that bit is often interpreted as the colour (red or black). These colours are used to ensure that the tree 
+remains balanced during insertions and deletions. Although the balance of the tree is not perfect, 
+it is good enough to reduce the searching time and maintain it around O(log n) time, where n is the total number of elements in the tree. 
+This tree was invented in 1972 by Rudolf Bayer. 
+
+It must be noted that as each node requires only 1 bit of space to store the colour information, 
+these types of trees show identical memory footprint to the classic (uncoloured) binary search tree. 
+
+Rules That Every Red-Black Tree Follows: 
+                1. Every node has a colour either red or black.
+                2. The root of tree is always black.
+                3. There are no two adjacent red nodes (A red node cannot have a red parent or red child).
+                4. Every path from a node (including root) to any of its descendant NULL node has the same number of black nodes.
+
+Why Red-Black Trees?
+        Most of the BST operations (e.g., search, max, min, insert, delete.. etc) take O(h) time where h is the height of the BST. 
+        The cost of these operations may become O(n) for a skewed Binary tree. 
+        If we make sure that the height of the tree remains O(log n) after every insertion and deletion, then we can guarantee an upper bound of O(log n) for all these operations. 
+        The height of a Red-Black tree is always O(log n) where n is the number of nodes in the tree. 
+
  */
  
  import java.util.Scanner;

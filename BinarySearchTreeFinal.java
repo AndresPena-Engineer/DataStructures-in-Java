@@ -1,8 +1,10 @@
 /*
- * Java Program to Implement Binary Search Tree
- * ANDRES PENA
- * 10/2/2017
- * Lab 1
+            Binary Search Tree 
+
+It is a node-based binary tree data structure which has the following properties:
+            1. The left subtree of a node contains only nodes with keys lesser than the node’s key.
+            2. The right subtree of a node contains only nodes with keys greater than the node’s key.
+            3. The left and right subtree each must also be a binary search tree.
  */
  
  import java.util.Scanner;

@@ -1,11 +1,14 @@
+/*
+Description: 
+            Priority queue is an abstract data type which is like a regular queue or stack
+            data structure, but where additionally each element has a "priority" 
+            associated with it. ... While priority queues are often implemented 
+            with heaps, they are conceptually distinct from heaps.
+            What types of sorts it supports are all the ones in this code and 
+            a lot more like bubble sorting and others.
+*/ 
+
 package sortmethods;
-//+++++++EXPLANATION+++++++++
-//priority queue is an abstract data type which is like a regular queue or stack
-//data structure, but where additionally each element has a "priority" 
-//associated with it. ... While priority queues are often implemented 
-//with heaps, they are conceptually distinct from heaps.
-//What types of sorts it supports are all the ones in this code and 
-// a lot more like bubble sorting and others.
 
 import java.io.*;
 import java.util.*;
