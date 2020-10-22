@@ -1,11 +1,4 @@
 package sortmethods;
-
-
-// ANDRES PENA          
-// 10/21/2017
-// LAB 3
-
-
 //+++++++EXPLANATION+++++++++
 //priority queue is an abstract data type which is like a regular queue or stack
 //data structure, but where additionally each element has a "priority" 
